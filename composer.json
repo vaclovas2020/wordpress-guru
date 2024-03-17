@@ -1,0 +1,19 @@
+{
+    "name": "example/wordpress-guru",
+    "description": "Example plugin with composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Example\\WordpressGuru\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vaclova2020",
+            "email": "vaclovas.lapinskis@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
