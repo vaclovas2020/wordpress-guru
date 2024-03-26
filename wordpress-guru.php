@@ -13,4 +13,8 @@ if (! defined('ABSPATH')) {
     exit; // Exit if accessed directly
 }
 
+define('WORDPRESS_GURU_DIR', __FILE__); // set plugin dir constant
+
+require_once __DIR__.'/vendor/autoload.php';
+
 new WordpressGuruPlugin();
